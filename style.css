@@ -211,6 +211,7 @@ body {
     padding-right: 0px;
     text-decoration: none;
     cursor: pointer;
+
 }
 
 .sidebar a.active {
@@ -220,13 +221,25 @@ body {
 
 .sidebar a:hover:not(.active) {
     background-color: rgb(114, 131, 218);
+
+  }
+   
+  .sidebar a.active {
+    background-color: #0058c4;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #2477dc;
+
     color: white;
     opacity: 0.8;
 }
 
 .content {
     margin-left: 17%;
-    background-color: #1b1571;
+    background-color: #0058c4;
+    background-image: linear-gradient(160deg, #0058c4 0%, #259083 100%);
     overflow-y: scroll;
     color: white;
     max-height: 90vh;
@@ -234,6 +247,7 @@ body {
     width: 83%;
     padding-bottom: 50px;
     padding-top: 50px;
+
 }
 
 table {
@@ -285,3 +299,17 @@ table {
 .contest-row-separater {
     height: 8px;
 }
+
+  }
+  
+  
+  table{width: 98%;color: white;min-width: 400px;font-weight: 500;}
+     
+  .contest-name{padding-left: 30px;}
+  .solve-contest{max-width: 200px;text-align: center;background-color: rgb(88, 80, 80);color:white;border-radius: 5px;padding: 10px;cursor: pointer;}
+  .virtual-contest{max-width: 200px;text-align: center;background-color: blueviolet;color: white;border-radius: 5px;padding: 10px;cursor: pointer;}
+  .contest-separater{width: 2%;padding: 10px;}
+  .contest-row{padding: 10px;}
+  .solve-contest:hover,.virtual-contest:hover{opacity: 0.7;}
+  .contest-row-separater{height: 8px;}
+

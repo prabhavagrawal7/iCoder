@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.plot.ly/plotly-2.3.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg main-nav px-0">
+            <a class="navbar-brand" href="/mojo">iCoder </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar icon-bar-1"></span>
+                            <span class="icon-bar icon-bar-2"></span>
+                            <span class="icon-bar icon-bar-3"></span>
+                        </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+              <ul class="navbar-nav ml-auto text-uppercase f1">
+                <li>
+                  <a href="#home" >home</a>
+                </li>
+                <li>
+                    <a href="#testimony">Visualizer</a>
+                  </li>
+                <li>
+                  <a href="#about" class="active active-first">Codeforces</a>
+                </li>
+                <li>
+                  <a href="#service">codechef</a>
+                </li>
+                <li>
+                  <a href="#project">practice</a>
+                </li>
+               
+                <li>
+                  <a href="#team">about us</a>
+                </li>
+                
+                <li class="dropdown">
+                  <a href="#contact" class="dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- /.container -->
+      </header>
+    <div class="content-container">
+        <div class="sidebar">
+            <a onclick="showContent(this)" id="div1" class="active">Div 1</a>
+            <a onclick="showContent(this)" id="div2" >Div 2</a>
+            <a onclick="showContent(this)" id="div3" >Div 3</a>
+            <a onclick="showContent(this)" id="div4" >Div 4</a>
+            <a onclick="showContent(this)" id="div1and2" >Div 1 + Div 2</a>
+            <a onclick="showContent(this)" id="educational" >Educational</a>
+            <a onclick="showContent(this)" id="global" >Global</a>
+          </div>
+          <div class="content">
+           <table></table>
+          </div>  
+       </div> 
+</body>
+<script src="script.js"></script>
+</html>

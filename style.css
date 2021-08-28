@@ -231,7 +231,7 @@ background-color: #fff;
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: rgb(114, 131, 218);
+    background-color: #2477dc;
     color: white;
     opacity: 0.8;
   }

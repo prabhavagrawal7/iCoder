@@ -142,6 +142,7 @@ function  distributeData(data){
   
  }); 
  div1+="</table>",div2+="</table>",div3+="</table>",div4+="</table>",global+="</table>",educational+="</table>",div1and2+="</table>";
+ const area=document.querySelector('.content').innerHTML=div1;
 }
 async function getapi(url){
     const response= await fetch(url);
